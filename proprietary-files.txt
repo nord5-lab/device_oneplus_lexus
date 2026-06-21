@@ -1466,6 +1466,9 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/tof8801_firmware.bin
 
+# Camera (Fixups)
+odm/lib64/libui.so:vendor/lib64/libui-stock.so;FIX_SONAME
+
 # Charger firmware
 odm/firmware/fastchg/24881/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
