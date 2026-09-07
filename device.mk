@@ -68,7 +68,10 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,HTPR_ENABLE_VALUE,288)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator.service.oplus-richtap
+    android.hardware.vibrator.service.oplus-livetap \
+    OplusHaptics
+
+$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,LIVETAP_F0_CFLAG,-DLIVETAP_DEFAULT_F0=170)
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
