@@ -1812,9 +1812,40 @@ odm/firmware/ufs/SKhynix-HN8T15DEHKX075.bin
 odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 odm/firmware/ufs/ufs_version_config.xml
 
-# Vibrator - from OnePlus 12 (CPH2573_16.0.2.400(EX01))
-odm/etc/aac_richtap.config|f3e17a5e333ef10af8be3dc0f1ddb889e133c05d
-odm/lib64/libaacvibrator.so:vendor/lib64/libaacvibrator.so|75c4af92d9a1953b37ba1d9a69972fd5a2709a2d
+# Vibrator
+odm/etc/lra_model_0.conf|e4e5c4cd05ed981e68e63b1f8f4cf7bb12f25ad1
+odm/etc/wave_lib/F_MMAP.txt|4d80c058685b26d5604559489d4900c61e831818
+odm/etc/wave_lib/F0/WAVE_MMAP.txt|e0be833e9b612c62ce4a893c8fa68c5a24d2d6ef
+odm/etc/wave_lib/F0/wave_he_short_f0_162_0.bin|42cade2c09e26cf5a426a6ed55ebccbe27efc82b
+odm/etc/wave_lib/F0/wave_he_short_f0_162_1.bin|b5b120db062419bf775019879197f018be24da2f
+odm/etc/wave_lib/F0/wave_he_short_f0_162_2.bin|e25256869cdba42bc66a124a2b5dd6dca8034c8a
+odm/etc/wave_lib/F0/wave_he_short_f0_162_3.bin|ce405b0685ff6edc2dacdfdeade339f0733fac85
+odm/etc/wave_lib/F0/wave_he_short_f0_162_4.bin|269c4b6d760796690b955169354b52b8477b5a8d
+odm/etc/wave_lib/F1/WAVE_MMAP.txt|3ba3f26ba4b448e519370f270c550a8f5410eacd
+odm/etc/wave_lib/F1/wave_he_short_f0_166_0.bin|0a9a8b9c907000f2e1e63850f82a4d89763066a6
+odm/etc/wave_lib/F1/wave_he_short_f0_166_1.bin|37598c628cad450f42691ae65b103578d1bb07d8
+odm/etc/wave_lib/F1/wave_he_short_f0_166_2.bin|9d0f6c85f73f16db67e55028e5dcc76b67467e1c
+odm/etc/wave_lib/F1/wave_he_short_f0_166_3.bin|e7b5b977e28c66dae52feb591774444acec9eaf6
+odm/etc/wave_lib/F1/wave_he_short_f0_166_4.bin|42b285425b9d4f456855e45565aed14a92ecde01
+odm/etc/wave_lib/F2/WAVE_MMAP.txt|6ec442d39efa8eb241fe49f1e02d66b0b1ddee31
+odm/etc/wave_lib/F2/wave_he_short_f0_170_0.bin|8afc5fb87363da2f8b12224cc3a34964f3ac211d
+odm/etc/wave_lib/F2/wave_he_short_f0_170_1.bin|fd4956f3a8adaf52481c9f4b3f3c86dde0149343
+odm/etc/wave_lib/F2/wave_he_short_f0_170_2.bin|37487a0c8730d903a8d161428dbf30123a20842c
+odm/etc/wave_lib/F2/wave_he_short_f0_170_3.bin|4147b22090ba7e87163283e2c25d8edf45a4885f
+odm/etc/wave_lib/F2/wave_he_short_f0_170_4.bin|9314641e5d26fb3b7d32666683defb3d86df432f
+odm/etc/wave_lib/F3/WAVE_MMAP.txt|54c9b8daefc69b21090cdc3ed71f98e93ab3a14d
+odm/etc/wave_lib/F3/wave_he_short_f0_174_0.bin|b010624f656a29c47968ee1c4bc9c05b64793f5c
+odm/etc/wave_lib/F3/wave_he_short_f0_174_1.bin|3b9b48650481868989a25bfba1e1b688815895db
+odm/etc/wave_lib/F3/wave_he_short_f0_174_2.bin|d85ca688bb08c38e58cc81bc4e8221218dbdde54
+odm/etc/wave_lib/F3/wave_he_short_f0_174_3.bin|7aeaebec82932c7ffda1cd1b686c16ef0c1c10e7
+odm/etc/wave_lib/F3/wave_he_short_f0_174_4.bin|c4061142d7505157713aae9a16c32824477200c7
+odm/etc/wave_lib/F4/WAVE_MMAP.txt|2333941181fdc7b3d7b246df4a6c2a1c4b97e08c
+odm/etc/wave_lib/F4/wave_he_short_f0_178_0.bin|d35d7185a85851525dedc69c206c8302d630cf71
+odm/etc/wave_lib/F4/wave_he_short_f0_178_1.bin|74705b7b862cb3c51423662e7289c946f7c0c2cf
+odm/etc/wave_lib/F4/wave_he_short_f0_178_2.bin|cd77babd0abea068f33c201e818aab454159e546
+odm/etc/wave_lib/F4/wave_he_short_f0_178_3.bin|fd98adb5f067b5942f88bd4df2b3d52b6a9f6049
+odm/etc/wave_lib/F4/wave_he_short_f0_178_4.bin|c6a92d79fdba3cfac1b65745b20800106e0c16b5
+odm/lib64/libsivibrator.so:vendor/lib64/libsivibrator.so|45408238c029a4da01b680fd433d213f6b2c6565
 
 # Vibrator firmware
 odm/firmware/aw8697_haptic.bin
