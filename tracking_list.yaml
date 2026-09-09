@@ -1,0 +1,5 @@
+non_coredomain_for_platform_apps:
+  - apk: OplusCamera.apk
+    bug: 0
+  - name: com.oplus.camera
+    bug: 0
