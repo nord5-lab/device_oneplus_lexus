@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lexus.mk
+    $(LOCAL_DIR)/alpha_lexus.mk
