@@ -1,0 +1,9 @@
+# MistOS device information
+ro.mist.display=1272 x 2800, 144 hz
+ro.mist.battery=5200mah
+ro.mist.soc=Snapdragon 8s Gen 3
+ro.mist.camera=50 MP + 8 MP
+ro.mist.front=50MP
+ro.mist.platform=SM8635
+ro.mist.screen=6.83' AMOLED
+ro.mist.device.name=OnePlus Nord 5

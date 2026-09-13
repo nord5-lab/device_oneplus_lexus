@@ -10,8 +10,40 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lexus device
 $(call inherit-product, device/oneplus/lexus/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common MistOS stuff.
+TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Device config
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_PREBUILT_BCR := true
+
+# Lawnchair (Pixel Launcher by default)
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Live wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
+# Quick tap
+TARGET_SUPPORTS_QUICK_TAP  := true
+
+# Now Playing
+TARGET_SUPPORTS_NOW_PLAYING := false
+
+# Bypass charging
+BYPASS_CHARGE_SUPPORTED := true
+
+# GMS
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
+# Mist OS Flags
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER := stahed
 
 PRODUCT_NAME := lineage_lexus
 PRODUCT_DEVICE := lexus
